@@ -1,12 +1,12 @@
 <?php
-$title = 'My page';
+$title = 'lesson53git';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lesson53git</title>
+    <title><?=$title;?></title>
 </head>
 <body>
     <h1>title</h1>
