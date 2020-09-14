@@ -1,3 +1,6 @@
+<?php
+$title = 'My page';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
