@@ -1,5 +1,7 @@
 <?php
 $title = 'lesson53git';
+$name = "Allex";
+$birthday = "07.10.1992";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +12,8 @@ $title = 'lesson53git';
 </head>
 <body>
     <h1>title</h1>
+    <p>My name: <?=$name;?></p>
+    <p>My birthday: <?=$birthday;?></p>
 </body>
 </html>
 
@@ -17,6 +21,12 @@ $title = 'lesson53git';
 
 git remote - проверить существует ли связь с удаленным репозиторием
 git branch - создание ветки
+<<<<<<< HEAD
 git checkout - переключение между ветками
 git log --oneline --decorate --graph --all - вывести все ветки 
  -->
+=======
+git checkout - переключение между ветками    
+
+-->
+>>>>>>> dev
